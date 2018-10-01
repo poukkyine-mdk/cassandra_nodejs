@@ -1,0 +1,24 @@
+{
+  "name": "cassandra_node",
+  "version": "1.0.0",
+  "description": "THis is a git repo for node js and cassandra.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poukkyine-mdk/cassandra_nodejs.git"
+  },
+  "author": "poukkyine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poukkyine-mdk/cassandra_nodejs/issues"
+  },
+  "homepage": "https://github.com/poukkyine-mdk/cassandra_nodejs#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cassandra-driver": "^3.5.0",
+    "express": "^4.16.3"
+  }
+}
