@@ -1,5 +1,5 @@
 {
-  "name": "cassandra_node",
+  "name": "myapp",
   "version": "1.0.0",
   "description": "THis is a git repo for node js and cassandra.",
   "main": "app.js",

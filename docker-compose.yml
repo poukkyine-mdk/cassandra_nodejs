@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cassandra_nodejs.git:
+    container_name: myson
+    build: .
+    ports:
+      - 3000:3000
