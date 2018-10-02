@@ -1,3 +1,9 @@
+var courses_data=[{
+	courseCode:"INFS4332",
+	courseName:"How to have a life",
+	courseLecturer:"Mr Pouk",	
+}];
+
 //include packages
 var cassandra = require("cassandra-driver");
 var async = require('async');
@@ -17,12 +23,25 @@ client.execute("SELECT lastname, age, city, email, firstname FROM users WHERE em
 	}
 	
 })
-
 var express=require("express");
 var app=express();
+
+app.set("view engine","ejs");
+
 app.get("/",function(req,res){
-	res.send("Hello Angel");
+	res.render("landing")
 })
+
+app.get("/courses",function(req,res){
+	res.render("courses")
+})
+app.post("/courses",function(req,res){
+	res.redirect("/courses")
+})
+app.get("/courses/new",function(req,res){
+	res.render("new_course")
+})
+
 app.listen(3000,function(){
 	console.log("Server Started");
 })

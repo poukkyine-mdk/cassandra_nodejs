@@ -23,6 +23,11 @@
             "label": "Ctrl+Shift+T",
             "isNative": true
         },
+        "workbench.action.openRecent": {
+            "id": "workbench.action.openRecent",
+            "label": "Ctrl+R",
+            "isNative": true
+        },
         "workbench.action.files.save": {
             "id": "workbench.action.files.save",
             "label": "Ctrl+S",
@@ -470,5 +475,25 @@
             "file:///home/pk/cassandra_nodejs.git"
         ],
         "files2": []
+    },
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/home/pk/cassandra_nodejs.git",
+                "external": "file:///home/pk/cassandra_nodejs.git",
+                "path": "/home/pk/cassandra_nodejs.git",
+                "scheme": "file"
+            },
+            "backupPath": "/home/pk/cassandra_nodejs.git/~/.vscode-root/Backups/fc7fec2c331c0691893350342f24203b",
+            "uiState": {
+                "mode": 1,
+                "x": 90,
+                "y": 150,
+                "width": 1278,
+                "height": 930
+            }
+        }
     }
 }

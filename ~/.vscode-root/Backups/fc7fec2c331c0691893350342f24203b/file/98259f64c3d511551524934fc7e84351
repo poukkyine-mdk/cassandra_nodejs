@@ -1,0 +1,7 @@
+file:///home/pk/cassandra_nodejs.git/views/landing.ejs
+<% include partials/header %>
+
+<h1>This is the landing page.</h1>
+<a href="courses.ejs">Show ALl Courses</a>
+
+<% include partials/footer %>

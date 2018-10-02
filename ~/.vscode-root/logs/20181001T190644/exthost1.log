@@ -34,3 +34,7 @@
 [2018-10-01 19:48:53.488] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/59/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
 [2018-10-01 19:48:53.587] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
 [2018-10-01 19:48:53.587] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/59/usr/share/code/resources/app/extensions/npm/out/main
+[2018-10-01 22:37:31.550] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-10-01 22:37:31.550] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/59/usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2018-10-02 10:41:58.580] [exthost1] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"activationEvent":"onLanguage:css"}
+[2018-10-02 10:41:58.580] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/59/usr/share/code/resources/app/extensions/css-language-features/client/dist/cssMain

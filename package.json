@@ -19,6 +19,7 @@
   "dependencies": {
     "async": "^2.6.1",
     "cassandra-driver": "^3.5.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.3"
   }
 }
