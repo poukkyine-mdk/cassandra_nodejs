@@ -18,3 +18,9 @@
 [2018-10-02 21:22:27.222] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/59/usr/share/code/resources/app/extensions/extension-editing/out/extension
 [2018-10-02 21:28:34.132] [exthost1] [info] ExtensionService#_doActivateExtension PeterJausovec.vscode-docker {"startup":false,"activationEvent":"onLanguage:yaml"}
 [2018-10-02 21:28:34.132] [exthost1] [info] ExtensionService#loadCommonJSModule /home/pk/.vscode/extensions/peterjausovec.vscode-docker-0.3.1/out/dockerExtension
+[2018-10-02 21:31:15.259] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-10-02 21:31:15.260] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/59/usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-10-02 21:31:15.268] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-10-02 21:31:15.268] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/59/usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2018-10-02 21:31:15.354] [exthost1] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2018-10-02 21:31:15.354] [exthost1] [info] ExtensionService#loadCommonJSModule /snap/vscode/59/usr/share/code/resources/app/extensions/npm/out/main
