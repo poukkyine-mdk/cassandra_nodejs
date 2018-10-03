@@ -488,11 +488,11 @@
             },
             "backupPath": "/home/pk/cassandra_nodejs.git/~/.vscode-root/Backups/fc7fec2c331c0691893350342f24203b",
             "uiState": {
-                "mode": 1,
-                "x": 90,
-                "y": 150,
-                "width": 1278,
-                "height": 930
+                "mode": 0,
+                "x": 67,
+                "y": 55,
+                "width": 1853,
+                "height": 1025
             }
         }
     }

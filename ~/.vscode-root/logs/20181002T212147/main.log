@@ -1,3 +1,10 @@
 [2018-10-02 21:21:47.081] [main] [info] update#setState idle
 [2018-10-02 21:22:17.104] [main] [info] update#setState checking for updates
 [2018-10-02 21:22:17.279] [main] [info] update#setState idle
+[2018-10-02 22:22:17.136] [main] [info] update#setState checking for updates
+[2018-10-02 22:22:18.158] [main] [info] update#setState idle
+[2018-10-02 23:22:17.166] [main] [info] update#setState checking for updates
+[2018-10-02 23:22:18.295] [main] [info] update#setState idle
+[2018-10-03 00:22:17.170] [main] [info] update#setState checking for updates
+[2018-10-03 00:22:17.180] [main] [error] Error: net::ERR_NAME_NOT_RESOLVED
+[2018-10-03 00:22:17.181] [main] [info] update#setState idle

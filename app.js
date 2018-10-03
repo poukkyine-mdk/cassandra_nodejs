@@ -8,29 +8,32 @@ var courses_data=[{
 var cassandra = require("cassandra-driver");
 var async = require('async');
 //connect to the cluster
-var client = new cassandra.Client({contactPoints:['127.0.0.1'],keyspace:'demo'});
-//read users and print to console
+var client = new cassandra.Client({contactPoints:['172.18.0.22'],keyspace:'demo'});
+var str="working"
 
 var express=require("express");
 var app=express();
 
 app.set("view engine","ejs");
-var str="";
+
 app.get("/",function(req,res){
-	client.execute("SELECT lastname, age, city, email, firstname FROM users WHERE email='bob@gg.com'", function(err,result){
-		if(!err){
-			if(result.rows.length>0){
-				var user = result.rows[0];
-				str+="name = %s, age =%d", user.firstname, user.age;
-			}else{
-				str+="no result";
-			}
-		}else {
-			str+="no result";
+	//read users and print to console
+client.execute("SELECT lastname, age, city, email, firstname FROM users WHERE email='bob@gg.com'", function(err,result){
+	if(!err){
+		if(result.rows.length>0){
+			var user = result.rows[0];
+			console.log("name = %s, age =%d", user.firstname, user.age);
+			str+= "name = %s, age =%d", user.firstname, user.age
+		}else{
+			console.log("No results");
 		}
-		
-	})
-	res.send(str)
+	}else {
+		console.log(err);
+		str+=err;
+	}
+	
+})
+	res.send(str);
 })
 
 app.get("/courses",function(req,res){
@@ -43,6 +46,6 @@ app.get("/courses/new",function(req,res){
 	res.render("new_course")
 })
 
-app.listen(8081,function(){
+app.listen(3000,function(){
 	console.log("Server Started");
 })
